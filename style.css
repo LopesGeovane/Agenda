@@ -10,18 +10,21 @@ body{
     background-color: rgb(4, 132, 252);
 }
 
-
+div{
+    width: 800px;
+    height: 400px;
+}
 
 table{
     width: 800px;
     height: 400px;
     border-collapse: collapse;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 15px rgb(250, 3, 3);
 }
 
 thead>tr>th{
     position: sticky;
-    top: 0;
+    top: 30px;
 }
 
 td,th{
