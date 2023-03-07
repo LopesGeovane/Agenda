@@ -7,19 +7,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(4, 252, 219);
+    background-color: rgb(4, 132, 252);
+    width: 1500px;
+    height: 1400px;
 }
 
 div{
-    overflow-x: auto;
-    overflow-y: auto;
 }
 
 
 
 table{
-    width: 800px;
-    height: 400px;
     border-collapse: collapse;
     box-shadow: 5px 5px 15px black;
 }
@@ -27,11 +25,12 @@ table{
 thead>tr>th{
     position: sticky;
     top:0;
+    z-index: 10;
 }
 
 th{
     position: sticky;
-    left:0px;
+    left:0;
 }
 
 td,th{
