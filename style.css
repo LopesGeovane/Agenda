@@ -8,8 +8,14 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(4, 132, 252);
-    width: 2460px;
-    height: 1080px;
+}
+
+div{
+    width: 400px;
+    height: 600px;
+    background-color: brown;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 table{
@@ -17,6 +23,7 @@ table{
     box-shadow: 5px 5px 15px black;
     width: 2460px;
     height: 1080px;
+    
 }
     
 
