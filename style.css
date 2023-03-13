@@ -12,8 +12,8 @@ body{
 
 div{
     width: 500px;
-    height: 600px;
-    background-color: brown;
+    height: 900px;
+    background-color: rgb(99, 42, 165);
     overflow-x: auto;
     overflow-y: auto;
 }
@@ -21,7 +21,7 @@ div{
 table{
     border-collapse: collapse;
     box-shadow: 5px 5px 15px black;
-    width: 1800px;
+    width: 1600px;
     height: 1080px;
     
 }
